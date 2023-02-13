@@ -34,7 +34,7 @@ void cau5(){
   print('Cau 5: ');
   print('Vui long nhap 1 so bat ki');
   int? n = int.parse(stdin.readLineSync() ?? "0");
-  print(n);
+  print(n*n);
 }
 void cau6(){
   print('Cau 6: ');
