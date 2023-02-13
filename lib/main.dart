@@ -5,7 +5,7 @@ void main() {
   cau2();
   cau3_4();
   cau5();
-  cau5();
+  cau6();
   cau7();
   cau8();
   cau9();
@@ -40,7 +40,7 @@ void cau6(){
   print('Cau 6: ');
   print('Vui long nhap ten cua ban');
   String? name = stdin.readLineSync() ?? "ban chua nha150p du lieu";
-  print (name);
+  print ("ten cua ban la $name");
 }
 void cau7(){
   print('Cau 7: ');
@@ -53,11 +53,14 @@ void cau7(){
 void cau8(){
  double soThuNhat = 15;
   double soThuHai = 6;
+  print('Cau 8: ');
+  print("so a la $soThuNhat , so b la $soThuHai");
   double mid = soThuHai;
   soThuHai = soThuNhat;
   soThuNhat = mid;
-  print('Cau 8: ');
+  print('Sau khi cap nhap :');
   print("so a la $soThuNhat , so b la $soThuHai");
+ 
 }
 void cau9(){
   
@@ -70,7 +73,7 @@ void cau10(){
   print("cau 10:");
   print('Vui long nhap so muon chuyen doi');
   int? so = int.parse(stdin.readLineSync() ?? "0");
-  print(so);
+  print("so ban vua nhap la $so");
 }
 void cau11(){
   print("cau 11");
